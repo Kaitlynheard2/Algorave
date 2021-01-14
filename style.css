@@ -1,0 +1,182 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background-image: url("https://cdn.glitch.com/637e5fcc-eaeb-44c2-9363-ecc20a61340e%2Fbg.gif?v=1606828840316");
+  font-family: 'Courier Prime', monospace;
+  font-size:14px;
+  margin-top:50px;
+  /*font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  text-align: center;*/
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.title {
+  position: sticky;
+  text-align: center;
+  color:rgba(237, 86, 5);
+  text-shadow: 2px 2px 5px #ed5605;
+  font-size:80px;
+}
+
+.subtitle{
+  position: sticky;
+  text-align: center;
+  color:rgba(237, 86, 5);
+  text-shadow: 2px 2px 5px #ed5605;
+  font-size:20px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: sticky;
+  top:0;
+  right: 0;
+  bottom: 0;
+  max-width: 70%; /*added this to stop animation from hitting side*/
+  min-height: 100%;
+}
+
+.about{
+  position:fixed;
+  bottom:0;
+  right:50px;
+  max-width:25%;
+  max-height:100%;
+  background:rgba(255,255,255,0.5);
+}
+
+h1{
+  color:#37d9fa;
+  }
+
+p{
+  font-size:20px;
+}
+
+a{
+  color:#f55f02;
+  text-decoration: none;
+}
+
+a:hover{
+  color:white;
+  background-color:#f00232
+}
+
+span{
+  color: #3fed05;
+}
+
+
+.numbers{
+  color: black;
+}
+
+.highlight{
+  background-color:rgba(255,255,255,0.5);
+  color: black;
+  width:1000px;
+  font-size:20px;
+  font-weight:bold;
+}
+
+.orange{
+  color:#f2af57;
+}
+
+.blue{
+    color:#236B9E;
+}
+
+.functions{
+  color:#3fed05;
+}
+
+.tab{
+  padding-left:40px;
+}
+
+
+.right-tab{
+  padding-right:40px;
+}
+
+.right-tab2{
+  padding-right:30px;
+}
+
+.var{
+  color:#403326;
+}
+
+.assignment{
+  color:#7a05f7;
+}
+
+.credits{
+  font-size:14px;
+}
+
+
+/*added by Melody*/
+/*@media (max-width: 800px) {
+  body {
+    padding: 0 10px;
+    font-size: 18px;
+    margin: 1em;
+  }
+
+  .content {
+    width: 100%;
+    position: relative;
+    margin: 1em;
+  }
+  .about {
+    position: relative;
+    max-width:100%;
+    margin: 1em;
+    right: 0;
+  }
+
+}*/
+
+/*Altered by kaitlyn*/
+@media only screen and (max-width: 1000px) {
+  .about {
+    position:relative;
+    bottom:50px;
+    left:0px;
+    max-width:100%;
+    max-height:100%;
+    background:rgba(255,255,255,0.5);
+  }
+
+  .content {
+    position: relative;
+    top:0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    min-height: 100%;
+  }
+
+  .highlight{
+    background-color:rgba(255,255,255,0.5);
+    color: black;
+    width:100%;
+    font-size:20px;
+    font-weight:bold;
+  }
+}
